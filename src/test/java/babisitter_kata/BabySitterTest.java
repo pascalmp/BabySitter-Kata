@@ -1,5 +1,7 @@
 package babisitter_kata;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,11 +14,14 @@ public class BabySitterTest {
 		testObject = new BabySitter();
 	}
 	
-	/*To avoid the midnight disruption on time counting,
-	 *I create a method that coverst time to a 0 to 11 scale
-	 */
+	
 	@Test
-	public void shouldConvertTime5to0(){
-		assertEquals(0, testObject.convertTime(5));
+	public void shouldValidateLengthFromRegularStartTimeToMidNight(){
+		assertEquals(0,testObject.validateShiftLengthfromRegularStartTimeToMidnight());
+	}
+	
+	@Test
+	public void shouldValidateEarliestStartTime(){
+		assertEquals(5, testObject.validateEarliestStartTime());
 	}
 }
