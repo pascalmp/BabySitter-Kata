@@ -16,12 +16,14 @@ public class BabySitterTest {
 	
 	
 	@Test
-	public void shouldValidateLengthFromRegularStartTimeToMidNight(){
-		assertEquals(0,testObject.validateShiftLengthfromRegularStartTimeToMidnight());
+	public void shouldValidateLengthFromEarliestStartTimeToMidNight(){
+		assertEquals(7,testObject.validateShiftLengthfromRegularStartTimeToMidnight());
 	}
 	
 	@Test
-	public void shouldValidateEarliestStartTime(){
-		assertEquals(5, testObject.validateEarliestStartTime());
+	public void shouldValidateLengthFromMidnightToLatestEndTime(){
+		assertEquals(4,testObject.validateShiftLengthfromMidnightToLatestEndTime());
 	}
+	
+	
 }
