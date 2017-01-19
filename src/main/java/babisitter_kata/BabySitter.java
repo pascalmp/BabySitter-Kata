@@ -9,20 +9,21 @@ public class BabySitter {
 	private static final int MIDNIGHT_TO_LATEST_END_TIME_IN_HOURS = 4;
 	private static final int EARLIEST_START_TO_LATEST_START_LENGTH_IN_HOURS = 11;
 	
-	private int startTime;
-	private int bedTime;
-	private int endTime;
+	private int shiftStartTime;
+	private int babyBedTime;
+	private int shiftEndTime;
 	
-	private int startTimePay = 12;
-	private int bedTimePay = 8;
-	private int midNightPay = 16;
+	private static final int START_TIME_PAY_RATE = 12;
+	private static final int BED_TIME_PAY_RATE = 8;
+	private static final int END_TIME_PAY_RATE = 16;
+	
+	
+	
+	
 
 	public int validateShiftLengthfromRegularStartTimeToMidnight() {
 		return EARLIEST_START_TIME_TO_MIDNIGHT_LENGTH_IN_HOURS;
-		
-		
-		
-		
+			
 	}
 
 	public Object validateShiftLengthfromMidnightToLatestEndTime() {
