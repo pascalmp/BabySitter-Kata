@@ -21,9 +21,10 @@ In order to get paid for 1 night of work
 I want to calculate my nightly charge
 
 
-Assumptions
------------
-Possible Scenarios graphic:
+
+
+Graphic of possible Scenarios:
+------------------------------
 
 ST:StartTime;
 
@@ -34,6 +35,7 @@ BT:BedTime;
 ET:EndTime;
 
 Shift minus BedTime:
+--------------------
 
 |ST------------------|MN------------|ET
 
