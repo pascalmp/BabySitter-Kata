@@ -23,3 +23,38 @@ I want to calculate my nightly charge
 
 Assumptions
 -----------
+Possible Scenarios graphic:
+
+ST:StartTime
+MN:MidNight
+BT:BedTime
+ET:EndTime
+
+Shift minus BedTime:
+|ST------------------|MN------------|ET
+
+PayRate per SubShift:
+
+|ST---$12---|BT--$8--|MN---$16------|ET
+
+|ST---$12------------|MN--$16-|BT---|ET
+
+WHAT WE KNOW:
+-------------
+BabySitter earns:
+
+$12 from ST to BT;
+$8  from BT to MN;
+$16 from MN to ET;
+
+ST Can be anytime between 5pm and 4am;but
+ST cannot be the same as ET;
+
+ET can be anytime between 5pm and 4am;but
+ET cannot be the same as ST;
+
+BT can be anytime from 5pm to 4am;
+
+MN is the only fixed time (Obviously);
+
+In brief, BabySitter in order to be paid, the time worked has to start not earlier than 5pm and not later than 4am.
