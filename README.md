@@ -26,8 +26,11 @@ Assumptions
 Possible Scenarios graphic:
 
 ST:StartTime;
+
 MN:MidNight;
+
 BT:BedTime;
+
 ET:EndTime;
 
 Shift minus BedTime:
