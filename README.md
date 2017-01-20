@@ -25,12 +25,13 @@ Assumptions
 -----------
 Possible Scenarios graphic:
 
-ST:StartTime
-MN:MidNight
-BT:BedTime
-ET:EndTime
+ST:StartTime;
+MN:MidNight;
+BT:BedTime;
+ET:EndTime;
 
 Shift minus BedTime:
+
 |ST------------------|MN------------|ET
 
 PayRate per SubShift:
